@@ -10,23 +10,39 @@ body {
     flex-direction: column;
     background-color: orange;
     width: 400px;
-    height: 500px;
+    height: 560px;
     align-items: center;
+    justify-content:space-evenly;
+    border-radius: 2%;
+    box-shadow: 5px 10px 5px rgb(54, 54, 54);
+    
+}
+
+.header {
+    width: 380px;
+}
+
+h1 {
+    margin: -10px 0px;
+    text-align: left;
 }
 
 .display {
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(187, 221, 250);
     width: 380px;
-    height: 100px;
-    margin: 10px;
+    height: 80px;
+    margin: -10px 0px;
     align-items: center;
     justify-content: flex-end;
+    border: 1px solid hsl(0, 0%, 46%);
+    box-shadow: inset 1px 1px 2px rgb(54, 54, 54);
 }
 
 .digits {
     font-size: xxx-large;
     padding: 10px;
+    text-shadow: 3px 3px grey;
 }
 
 .buttons {
@@ -35,8 +51,10 @@ body {
     height: 360px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    border: 1px solid hsl(0, 0%, 0%);
-    border-radius: 2%;  
+    border: 1px solid hsl(0, 0%, 46%);
+    border-radius: 2%;
+    background-color: lightgrey;
+    box-shadow: inset 1px 1px 2px rgb(54, 54, 54);  
 }
 
 div.button {
@@ -44,8 +62,11 @@ div.button {
     width: 70px;
     height: 50px;
     border: 1px solid hsl(0, 0%, 0%);
-    border-radius: 2%;
+    border-radius: 10%;
     margin: auto;
     align-items: center;
     justify-content: center;
+    background-color: orange;
+    font-size: x-large;
+    box-shadow: 1px 1px 2px rgb(54, 54, 54);
 }
